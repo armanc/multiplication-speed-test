@@ -1,7 +1,5 @@
 # Multiplication Speed Test
 
-**[https://HERE IS WEB ADDRESS FOR ACTUAL PROJECT UPLOADED]**
-
 This is my final project to conclude the CS50 Introduction to Computer Science course.
 
 ## About the project
@@ -16,7 +14,7 @@ The highscores table provides additional motivational element - to compete and t
 
 The project is made with VS Code using technology stack: React + Tailwind + SQLite.
 
-Video demo: [https://JUTUBES LINKS SHEIT]
+Video demo: https://youtu.be/6rKW-TVTDNc
 
 ## Installation
 
@@ -26,20 +24,20 @@ Make sure you have the following installed:
 
 -   Node.js
 -   npm
--   SQLite
+-   Sqlite
 
 ### Steps
 
 1. Clone the repository:
 
     ```shell
-    git clone https://github.com/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    git clone https://github.com/armanc/multiplication-speed-test.git
     ```
 
 2. Navigate to the project directory:
 
     ```shell
-    cd XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXprojectdirectory
+    cd multiplication-speed-test
     ```
 
 3. Install the dependencies:
