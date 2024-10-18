@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Multiplication Speed Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**[https://HERE IS WEB ADDRESS FOR ACTUAL PROJECT UPLOADED]**
 
-## Available Scripts
+This is my final project to conclude the CS50 Introduction to Computer Science course.
 
-In the project directory, you can run:
+## About the project
 
-### `npm start`
+![Screenshot](images/app.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Multiplication Speed Test is a web-based application created to help users practice multiplication tables with numbers 1 to 10.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This web app is best suited for children who need to learn the multiplication table. It gradually enhances multiplication skills, improves speed and accuracy.
 
-### `npm test`
+The highscores table provides additional motivational element - to compete and therefore achieve proficiency via gamification. Task is to answer all 10 math questions as fast as possible. Time is measured up to miliseconds.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The project is made with VS Code using technology stack: React + Tailwind + SQLite.
 
-### `npm run build`
+Video demo: [https://JUTUBES LINKS SHEIT]
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Make sure you have the following installed:
 
-### `npm run eject`
+-   Node.js
+-   npm
+-   SQLite
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Steps
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```shell
+    git clone https://github.com/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Navigate to the project directory:
 
-## Learn More
+    ```shell
+    cd XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXprojectdirectory
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Install the dependencies:
+    ```shell
+    npm install
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+1. Start the database:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    ```shell
+    node db_server.js
+    ```
 
-### Analyzing the Bundle Size
+2. Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    ```shell
+    npm start
+    ```
 
-### Making a Progressive Web App
+3. Open your web browser and go to http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Technical Details
 
-### Advanced Configuration
+### Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+-   React: A JavaScript library for building dynamic user interfaces (https://reactjs.org/).
+    It allows application to be completely modular. This application consists of 9 components. Key components are wrapped in TestSection.js component to manage the test's base logic unified. Here is visual diagram of dependencies (Created via Dependencies Cruiser Extension for VS Code):
 
-### Deployment
+    ![pic2](images/multiplication_app_dependencies.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+    And here is preview of how these components align visually:
 
-### `npm run build` fails to minify
+    ![pic3](images/components.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-   Tailwind CSS: A utility-first CSS framework for rapid UI development (https://tailwindcss.com/). It enables direct styling through the use of class names.
+-   SQLite: Library that provides a lightweight, disk-based database (https://www.sqlite.org/). I used it to create table to save highscores. Table consists of id, name and time.
+-   VS Code: Code editor used to put it all together.
+-   Figma: Interface design tool. Used for prototyping to make clear how interface should look and function before writing any code.
